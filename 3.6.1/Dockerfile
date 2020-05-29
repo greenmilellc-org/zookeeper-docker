@@ -30,6 +30,8 @@ RUN set -eux; \
         gosu \
         gnupg \
         netcat \
+        dnsutils \
+        telnet \
         wget; \
     rm -rf /var/lib/apt/lists/*; \
 # Verify that gosu binary works
